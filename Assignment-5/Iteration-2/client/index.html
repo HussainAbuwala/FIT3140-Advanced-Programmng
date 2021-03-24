@@ -1,0 +1,99 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Face Analysis</title>
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+</head>
+<style>
+	
+	body {
+		text-align: center;
+		background-image: url("ai.jpg");
+		background-size: cover;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.5em;
+	}
+	form {
+		background-color: #3FE0D0;
+		color:  #1D2951;
+		width: 30%;
+		margin: 0 auto;
+		padding: 2px;
+		font-size: 1.4em;
+		border: 1px solid black;
+	}
+	input {
+		height: 50px;
+		color: black;
+	}
+	h1 {
+		font-family: 'Arvo', serif;
+		color: #00FA9A;
+		font-size: 5em;
+	}
+	table.center {
+		 margin-left:auto; 
+		margin-right:auto;
+		background-color: #3FE0D0;
+		border-collapse: collapse;
+		color:  #1D2951;
+	}
+	
+	table, th, td {
+    border: 1px solid black;
+}
+h3 {
+	font-size: 0.8em;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+	
+#btn {
+	font-family: 'Arvo', serif;
+	background-color: #F1C40F;
+	color: white;
+	font-size: larger
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	
+}
+</style>
+<body>
+	<h1>Face Analysis</h1>
+	<form id="form">
+		<h3>Upload Your File Here</h3>
+		<input type="file" id="file" multiple />
+		<input type="submit" value="Upload" />
+	</form>
+	</br>
+	<div id = "message">
+		
+	</div>
+	</br>
+	<div id = 'inputImg'>
+		
+	</div>
+	</br>
+	<canvas id="myCanvas">
+	Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	</br>
+	<table id = "info" class = "center">
+		
+	</table>
+	</br>
+	<div id = 'sound'>
+	
+	</div>
+	<script src="socket.io.js"></script>
+	<script src="socket.io-file-client.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
