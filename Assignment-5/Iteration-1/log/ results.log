@@ -1,0 +1,40 @@
+{"level":"info","message":"Server listening on port 3000","timestamp":"17:10:04"}
+{"level":"info","message":"Socket connected.","timestamp":"17:10:08"}
+{"level":"info","message":"Start uploading","timestamp":"17:10:12"}
+{"level":"info","message":"Upload Complete.","timestamp":"17:10:12"}
+{"level":"info","message":"Start of detectFaces function","timestamp":"17:10:16"}
+{"level":"debug","message":"Face detection successful by Watson","timestamp":"17:10:16"}
+{"level":"info","message":"End of detectFaces function","timestamp":"17:10:16"}
+{"level":"info","message":"Start getTotalFaces Function","timestamp":"17:10:16"}
+{"level":"debug","message":"Total Faces: 6","timestamp":"17:10:16"}
+{"level":"info","message":"End of getTotalFaces Function","timestamp":"17:10:16"}
+{"level":"info","message":"Start getAverageAges Function","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop Start","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration0 Face-1 Average Age: 24.5","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration1 Face-2 Average Age: 24.5","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration2 Face-3 Average Age: 24.5","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration3 Face-4 Average Age: 30","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration4 Face-5 Average Age: 21.5","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration5 Face-6 Average Age: 29.5","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop End","timestamp":"17:10:16"}
+{"level":"info","message":"End of getAverageAges Function","timestamp":"17:10:16"}
+{"level":"info","message":"Start getGenders Function","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop Start","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration0 Face-1 Gender: MALE","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration1 Face-2 Gender: MALE","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration2 Face-3 Gender: FEMALE","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration3 Face-4 Gender: MALE","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration4 Face-5 Gender: FEMALE","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration5 Face-6 Gender: FEMALE","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop End","timestamp":"17:10:16"}
+{"level":"info","message":"End of getGenders Function","timestamp":"17:10:16"}
+{"level":"info","message":"Start of createMessage function","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop Start","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration0 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration1 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,Face 2 has an average age of 24.5 and is a MALE,","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration2 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,Face 2 has an average age of 24.5 and is a MALE,Face 3 has an average age of 24.5 and is a FEMALE,","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration3 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,Face 2 has an average age of 24.5 and is a MALE,Face 3 has an average age of 24.5 and is a FEMALE,Face 4 has an average age of 30 and is a MALE,","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration4 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,Face 2 has an average age of 24.5 and is a MALE,Face 3 has an average age of 24.5 and is a FEMALE,Face 4 has an average age of 30 and is a MALE,Face 5 has an average age of 21.5 and is a FEMALE,","timestamp":"17:10:16"}
+{"level":"debug","message":"Iteration5 text:- There are Total 6 faces! ,Face 1 has an average age of 24.5 and is a MALE,Face 2 has an average age of 24.5 and is a MALE,Face 3 has an average age of 24.5 and is a FEMALE,Face 4 has an average age of 30 and is a MALE,Face 5 has an average age of 21.5 and is a FEMALE,Face 6 has an average age of 29.5 and is a FEMALE,","timestamp":"17:10:16"}
+{"level":"verbose","message":"Loop End","timestamp":"17:10:16"}
+{"level":"info","message":"End of createMessage function","timestamp":"17:10:16"}
